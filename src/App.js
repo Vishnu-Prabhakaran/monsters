@@ -39,6 +39,7 @@ class App extends Component {
       // a second argument function () => thats gets called right after the setstate.example  'this.setState({searchField: e.target.value}, () => console.log(this.state));'
       //dont put setState inside render(), iy will reload every time and cause issues
       <div className="App">
+      <h1> Monster Players</h1>
        <SearchBox
        placeholder= 'search monsters'
        handleChange={this.handleChange}
